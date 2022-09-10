@@ -1,0 +1,15 @@
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\bin\Debug\net6.0\ejercicio-tema-3.exe
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\bin\Debug\net6.0\ejercicio-tema-3.deps.json
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\bin\Debug\net6.0\ejercicio-tema-3.runtimeconfig.json
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\bin\Debug\net6.0\ejercicio-tema-3.dll
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\bin\Debug\net6.0\ejercicio-tema-3.pdb
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ejercicio-tema-3.csproj.AssemblyReference.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ejercicio-tema-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ejercicio-tema-3.AssemblyInfoInputs.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ejercicio-tema-3.AssemblyInfo.cs
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ejercicio-tema-3.csproj.CoreCompileInputs.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ejercicio-tema-3.dll
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\refint\ejercicio-tema-3.dll
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ejercicio-tema-3.pdb
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ejercicio-tema-3.genruntimeconfig.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-3\obj\Debug\net6.0\ref\ejercicio-tema-3.dll

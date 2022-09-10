@@ -1,0 +1,5 @@
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-8\obj\Debug\net6.0\ejercicio-tema-8.csproj.AssemblyReference.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-8\obj\Debug\net6.0\ejercicio-tema-8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-8\obj\Debug\net6.0\ejercicio-tema-8.AssemblyInfoInputs.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-8\obj\Debug\net6.0\ejercicio-tema-8.AssemblyInfo.cs
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\introduccion-a-la-programacion\ejercicio-tema-8\obj\Debug\net6.0\ejercicio-tema-8.csproj.CoreCompileInputs.cache

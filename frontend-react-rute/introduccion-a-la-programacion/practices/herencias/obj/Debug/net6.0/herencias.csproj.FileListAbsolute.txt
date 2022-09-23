@@ -1,0 +1,15 @@
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\bin\Debug\net6.0\herencias.exe
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\bin\Debug\net6.0\herencias.deps.json
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\bin\Debug\net6.0\herencias.runtimeconfig.json
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\bin\Debug\net6.0\herencias.dll
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\bin\Debug\net6.0\herencias.pdb
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\herencias.csproj.AssemblyReference.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\herencias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\herencias.AssemblyInfoInputs.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\herencias.AssemblyInfo.cs
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\herencias.csproj.CoreCompileInputs.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\herencias.dll
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\refint\herencias.dll
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\herencias.pdb
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\herencias.genruntimeconfig.cache
+C:\Users\acost\OneDrive\2022\Curses\OpenBootCamp\frontend-react-rute\introduccion-a-la-programacion\practices\herencias\obj\Debug\net6.0\ref\herencias.dll

@@ -1,0 +1,161 @@
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #615055;
+    background-color: #CDD5D1;
+    bottom: 0px;
+}
+
+.nav-bar {
+    background-color: #946E83;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    z-index: 10;
+    box-shadow: 0 3px 15px 1px #B4A6AB;
+    font-size: 16pt;
+}
+
+.nav-bar #nav-bar-list {
+    list-style: none;
+    display: flex;
+    padding-inline-start: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#nav-bar-list .title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section-white {
+    position: relative;
+    background-color: #DDF8E8;
+    width: 100%;
+    height: 780px;
+    text-align: center;
+}
+
+.name-text {
+    padding: 250px 0px;
+}
+
+.name {
+    color: #615055;
+    font-size: 72pt;
+}
+.description {
+    color: #615055;
+    display: block;
+    font-size: 16pt;
+}
+
+.section-rose {
+    position: relative;
+    width: 100%;
+    height: 780px;
+    text-align: center;
+}
+
+.section-form {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#projects .project {
+    position: absolute;
+    top: 100px;
+    width: 450px;
+    height: 500px;
+    background-color: #946E83;
+    margin: 10px;
+}
+
+.lef {left: 0px;}
+.center {left: 34.5%;}
+.right {right: 0px;}
+
+.project-img {
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.project-info {
+    display: block;
+    font-size: 16pt;
+    margin: 0px 10px;
+    color: #DDF8E8;
+    font-weight: bold;
+}
+
+.about-info {
+    position: absolute;
+    display: inline;
+    font-size: 16pt;
+    color: #615055;
+    text-align: left;
+    margin: -200px 100px 0px -150px;
+}
+
+.relative {
+    position: relative;
+}
+
+.profile {
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 280px 600px 0px 0px;
+}
+
+.form {
+    margin: 300px 0px;
+}
+
+.form label {
+    margin: 5px;
+    font-size: 16pt;
+    display: block;
+}
+
+.form input {
+    padding: 5px;
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 1px;
+    margin: 10px;
+    color: #615055;
+    border-style: hidden;
+}
+
+.form textarea {
+    width: 325px;
+    height: 155px;
+    box-shadow: 0px 5px 15px 1px;
+    margin: 10px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.send-button {
+    background-color: green;
+    color: #CDD5D1;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+.send-button:hover {
+    background-color: #946E83;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+}
+p {
+    color: blue;
+}
+
+#title {
+    color: black;
+    text-decoration: underline;
+}
+
+.first-notice {
+    color: red;
+    font-size: 15pt;
+}
+
+.second-notice {
+    color: blue;
+    font-size: 15pt;
+}
+
+.third-notice {
+    color: brown;
+    font-size: 15pt;
+}
+
+.fourth-notice {
+    color: aqua;
+    font-size: 15pt;
+}

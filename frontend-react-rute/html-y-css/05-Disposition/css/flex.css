@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    background-color: blueviolet;
+    height: 200px;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.contain-1 {
+    width: 200px;
+    background-color: brown;
+    height: 200px;
+    border: 1px solid yellow;
+}
+
+.contain-2 {
+    width: 200px;
+    background-color: brown;
+    height: 200px;
+    border: 1px solid yellow;
+}
+
+.contain-3 {
+    width: 200px;
+    background-color: brown;
+    height: 200px;
+    border: 1px solid yellow;
+}

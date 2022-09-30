@@ -1,0 +1,39 @@
+.general-contain {
+    display: flex;
+}
+
+.hidden-contain {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.scroll-contain {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+    overflow: scroll;
+    margin: 5px;
+}
+
+.visible-contain {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+    overflow: visible;
+    margin: 5px;
+}
+
+.auto-contain {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+    overflow: auto;
+    margin: 5px;
+}

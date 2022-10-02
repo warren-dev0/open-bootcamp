@@ -6,23 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Inicio</title>
+    <title>WarrenPage</title>
 </head>
 
 <body>
-
-    <div class="nav-bar">
-        <ul id="nav-bar-list">
-            <li class="title"><a href="index.html">Pagina de Warren</a></li>
-            <li class="item"><a href="index.html">Inicio</a></li>
-            <li class="item"><a href="#projects">Proyectos</a></li>
-            <li class="item"><a href="#about">Sobre Mi</a></li>
-            <li class="item"><a href="#contact">Contacto</a></li>
-        </ul>
+    <div class="nav">
+        <a class="lines">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </a>
+        <div class="options">
+            <a href="#home">Inicio</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#about">Sobre Mi</a>
+            <a href="#contact">Contacto</a>
+        </div>
     </div>
 
-    <section id="name" class="section-white">
-        <div class="name-text">
+    <section id="home" class="section-rose">
+        <div class="home">
             <span class="name">Warren Acosta</span>
             <span class="description">
                 FrontEnd Developer <br> Conocimiento en HTML y
@@ -31,36 +34,39 @@
         </div>
     </section>
 
-    <section id="projects" class="section-rose">
-        <a href="">
-            <div class="project left">
-                <img class="project-img" src="/img/calculator.jpg" alt="calculator project">
-                <span class="project-info">Este es el proyecto de una calculadora con HTML, CSS y JavaScript</span>
-            </div>
-        </a>
+    <section id="projects" class="section-white">
+        <div class="projects">
+            <a href="">
+                <div class="project">
+                    <img class="project-img" src="/img/calculator.jpg" alt="calculator project">
+                    <span class="project-info">Este es el proyecto de una calculadora con HTML, CSS y JavaScript</span>
+                </div>
+            </a>
+    
+            <a href="">
+                <div class="project">
+                    <img class="project-img" src="/img/xyo.jpg" alt="xo project">
+                    <span class="project-info">Este es el proyecto de un
+                        juego de X y O
+                    </span>
+                </div>
+            </a>
+            <a href="">
+                <div class="project">
+                    <img class="project-img" src="/img/car.jpg" alt="car proyect">
+                    <span class="project-info">Este es el proyecto de un Carro (prueba)</span>
+                </div>
+            </a>
+        </div>
 
-        <a href="">
-            <div class="project center">
-                <img class="project-img" src="/img/xyo.jpg" alt="xo project">
-                <span class="project-info">Este es el proyecto de un
-                    juego de X y O
-                </span>
-            </div>
-        </a>
-        <a href="">
-            <div class="project right">
-                <img class="project-img" src="/img/car.jpg" alt="car proyect">
-                <span class="project-info">Este es el proyecto de un Carro (prueba)</span>
-            </div>
-        </a>
     </section>
 
-    <section id="about" class="section-white">
-        <div>
+    <section id="about" class="section-rose">
+        <div class="picture">
             <img class="profile" src="/img/profile-photo.jpg" alt="me">
         </div>
-        <div class="relative">
-            <p class="about-info">
+        <div class="about-info">
+            <p>
                 Soy estudiante de Ingenieria de Software y tambien integrante en la comunidad
                 de OpenBootcamp, en donde estoy cursando la ruta de FrontEnd con React, para luego en conjunto a una
                 ruta de Backend, poder convertirme en Desarrollador Full Stack.
@@ -71,7 +77,7 @@
         </div>
     </section>
 
-    <section id="contact" class="section-form">
+    <section id="contact" class="section-white contact">
         <form class="form" action="">
             <div class="email">
                 <label for="email" name="email">Correo</label>
@@ -79,10 +85,11 @@
             </div>
             <div class="message">
                 <label for="message" name="message">Mensaje</label>
-                <textarea name="message" cols="30" rows="10"></textarea>
+                <textarea name="message" cols="20" rows="10"></textarea>
             </div>
             <button class="send-button">Enviar Mensaje</button>
         </form>
     </section>
 </body>
+
 </html>

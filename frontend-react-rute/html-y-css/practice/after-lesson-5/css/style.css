@@ -8,7 +8,7 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
 
     .lines div{
         height: 5px;
@@ -181,5 +181,138 @@ html, body {
     }
 
     
+}
+
+@media only screen and (min-width: 769px) {
+    .lines {
+        display: none;
+    }
+
+    .nav {
+        padding: 2%;
+        background-color: #946E83;
+        box-shadow: 0 1px 5px #615055;
+        position: sticky;
+        top: 0;
+    }
+
+    .options a {
+        text-decoration: none;
+        color: #615055;
+        font-weight: bold;
+        font-size: 150%;
+        margin: 20px 10px;
+    }
+
+    .section-white {
+        background-color: #CDD5D1;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .section-rose {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .home {
+        text-align: center;
+    }
+
+    .home .name {
+        display: block;
+        margin: 10px 0;
+        padding: 200px 0 0 0;
+        font-weight: bold;
+        font-size: 300%;
+    }
+
+    .home .description {
+        display: block;
+        font-size: 150%;
+    }
+
+    .projects {
+        overflow: scroll;
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+    }
+
+    .project {
+        width: 90%;
+        height: 67%;
+        margin: 50% 0 0 10px;
+        background-color: #946E83;
+        border: 1px solid #946E83;
+        padding: 5px;
+    }
+
+    .projects img {
+        width: 80%;
+    }
+
+    .projects a {
+        text-decoration: none;
+    }
+
+    .project-info {
+        color: #CDD5D1;
+        font-weight: bold;
+    }
+
+    .picture .profile {
+        width: 30vw;
+        border-radius: 50%;
+        margin: 40% 0 0 33%;
+    }
+
+    .about-info {
+        text-align: center;
+        font-size: 80%;
+        margin: 15px;
+    }
+
+    .form {
+        padding: 50% 0 0 0;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .email label{
+        font-size: 150%;
+        display: block;
+    }
+
+    .email input {
+        width: 60%;
+        border-radius: 5px;
+    }
+
+
+    .message label {
+        font-size: 150%;
+        display: block;
+    }
+
+    .message textarea {
+        border-radius: 5px;
+        width: 60%;
+    }
+
+    .send-button {
+        font-size: 100%;
+        background-color: #B4A6AB;
+        border-radius: 5px;
+        padding: 5px;
+        color: #615055;
+        font-weight: bold;
+    }
+
+    .send-button:hover {
+        box-shadow: 5px 1px 5px #B4A6AB ;
+        background-color: #615055;
+        color: #B4A6AB;
+    }
 }
 

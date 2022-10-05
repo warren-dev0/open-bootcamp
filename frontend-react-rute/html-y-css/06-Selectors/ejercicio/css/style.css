@@ -1,0 +1,12 @@
+#pasar-encima::before {
+    content: 'Pasa por encima';
+}
+
+#pasar-encima:hover {
+    color: white;
+    background-color: green;
+}
+
+#pasar-encima:hover::before {
+    content: 'Hecho!';
+}

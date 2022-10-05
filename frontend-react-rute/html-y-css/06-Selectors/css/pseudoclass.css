@@ -1,0 +1,32 @@
+.hover {
+    width: 100vw;
+    background-color: rgb(41, 71, 71);
+}
+
+.hover p {
+    color: white;
+}
+
+.hover:hover {
+    background-color: rgb(167, 155, 139);
+}
+
+.hover:hover p {
+    color: black;
+}
+
+.child {
+    background-color: antiquewhite;
+}
+
+.child p:first-child {
+    color: white;
+}
+
+.anchor a:link {
+    color: red;
+}
+
+.anchor a:visited {
+    color: green;
+}

@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+}
+
+h1::before {
+    content: '"';
+}
+
+h1::after {
+    content: '"';
+}
+
+p::first-letter {
+    font-size: 22pt;
+}
+
+p::first-line {
+    color: red;
+}
+
+body p::selection, h1::selection {
+    color: white;
+    background-color: black;
+}
+
+div ul li::marker {
+    color: red;
+    content: '@';
+}

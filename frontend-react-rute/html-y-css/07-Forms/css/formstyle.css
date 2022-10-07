@@ -1,0 +1,44 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input {
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input[type = "password"] {
+    color: red;
+}
+
+.button {
+    padding: 5px;
+    margin: 5px;
+    margin-left: 200px;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    outline: none;
+    cursor: pointer;
+}
+
+label[for="firm"] {
+    display: block;
+    margin: 10px;
+}
+
+input.firm {
+    box-shadow: none;
+    border-bottom: 3px solid gray;
+    border-radius: 0;
+}
+
+input.firm:focus {
+    border-bottom: 3px solid red;
+}

@@ -1,7 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-form {
-    
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(225, 222, 222);
+    border-radius: 40px;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+.img-div picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.info .title {
+    width: 13rem;
+    font-weight: 700;
+    font-size: 16pt;
+    margin: 15% 0 5% 0;
+}
+
+.info .description {
+    width: 18rem;
+}
+
+.btn-div {
+    margin: auto;
+    display: flex;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 1px;
+    background-color: rgb(188, 186, 186);
+}
+
+.btn-div button {
+    border: none;
+    padding: 10px 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-div button:hover {
+    opacity: 0.80;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    transition: 0.2s;
+}
+
+.btn-div .register-btn {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn-div .session-btn {
+    background-color: rgb(188, 186, 186);
+    border-radius: 0 5px 5px 0;
 }

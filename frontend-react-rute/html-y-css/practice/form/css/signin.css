@@ -15,11 +15,10 @@ a {
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 425px;
+    width: 100vw;
     height: 100vh;
     align-items: center;
     background-color: rgb(225, 222, 222);
-    border-radius: 40px;
 }
 
 .title {

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+
+.header {
+    background-color: #005829;
+    padding: 10px;
+    font-size: 16pt;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.header span {
+    margin: 5px;
+}
+
+.date {
+    display: flex;
+    align-self: flex-start;
+}
+
+.date span{
+    display: flex;
+    color: #005829;
+    margin: 15px 10px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start .icon {
+    width: 50%;
+}
+
+.start .icon img{
+    width: 100%;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo picture {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo picture img {
+    width: 90%;
+}
+
+.photo div.btn button {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(165, 165, 165);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.photo div.btn button:focus {
+    background-color: rgb(97, 97, 97);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 25px 0;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+.buttons .access-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #005829;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons .access-btn picture {
+    width: 20px;
+}
+
+.buttons .access-btn picture img {
+    width: 100%;
+}
+
+.other-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.other-btn div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #005829;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.other-btn div picture {
+    display: flex;
+}
+
+.other-btn div picture img{
+    width: 20px;
+}

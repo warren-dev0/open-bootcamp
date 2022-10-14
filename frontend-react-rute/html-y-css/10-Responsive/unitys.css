@@ -1,0 +1,33 @@
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+.scenery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.scenery-1 {
+    width: 100%;
+}
+
+.scenery-2 {
+    width: 50%;
+}
+
+.px {
+    background-color: green;
+    width: 200px;
+}
+
+.porcent {
+    background-color: red;
+    width: 50%;
+}
+
+.view {
+    background-color: yellow;
+    width: 50vw;
+}

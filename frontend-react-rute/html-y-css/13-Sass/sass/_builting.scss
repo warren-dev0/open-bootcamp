@@ -1,0 +1,81 @@
+@use "sass:string";
+@use "sass:math";
+@use "sass:list";
+@use "sass:selector";
+@use "sass:color";
+
+// Funciones con cadenas de texto
+
+@debug "hola";
+@debug string.index("Helvetica Neue", "Neue");
+
+$string: "Helvetica";
+$newString: string.insert($string, " Bold", 10);
+
+@debug $newString;
+
+@debug string.length($newString);
+@debug string.slice($string, 5, 10);
+
+@debug string.to-upper-case($string);
+@debug string.to-lower-case($string);
+
+@debug string.unique-id();
+
+
+// Funciones con numeros
+
+@debug math.$e;
+@debug math.$pi;
+
+@debug math.ceil(1.5);
+
+@debug math.clamp(0, 20, 10);
+
+@debug math.floor(2.5);
+
+@debug math.max(2, 8);
+@debug math.min(2, 8);
+
+@debug math.round(2.6);
+
+@debug math.pow(10, 2);
+@debug math.pow(2, math.abs(-23));
+
+@debug math.cos(math.$pi);
+@debug math.sin(math.$pi);
+@debug math.tan(math.$pi);
+
+
+// Fuciones con Listas
+
+$list: 10px, 10px, 0px, 15px;
+
+@debug $list;
+@debug list.append($list, 25px);
+@debug list.append($list, 25px, space);
+
+$border-custom: solid 1px #ccc;
+@debug list.index($border-custom, 1px);
+
+@debug list.is-bracketed(1px 2px 3px);
+@debug list.is-bracketed([1px, 2px, 3px]);
+
+@debug list.join($list, $border-custom);
+
+@debug list.length(list.join($list, $border-custom));
+
+@debug list.join($list, $border-custom, space);
+
+// Fuciones de Selectores
+
+@debug selector.append("a", ".disabled");
+
+// Fuciones de color
+
+$color: #fdaa2d;
+@debug color.adjust($color, $red: -50);
+
+@debug color.complement($color);
+@debug darken($color, 10%);
+@debug lighten($color, 10%);

@@ -1,0 +1,13 @@
+{
+  "name": "first-project-node",
+  "version": "1.0.0",
+  "description": "this is my first javascript project with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar": "node hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Warren Acosta",
+  "license": "ISC"
+}

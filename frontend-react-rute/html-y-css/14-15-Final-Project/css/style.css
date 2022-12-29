@@ -1,26 +1,26 @@
 .btn-main {
-  background-color: #0075FF;
+  background-color: #0075ff;
   color: white;
   border-radius: 0.25rem;
-  border: solid 1px #0075FF;
+  border: solid 1px #0075ff;
   padding: 0.25rem 1.5rem;
 }
 .btn-main:hover {
   background-color: white;
-  color: #0075FF;
+  color: #0075ff;
 }
 .btn-main-s {
-  background-color: #0075FF;
+  background-color: #0075ff;
   color: white;
   border-radius: 0.25rem;
-  border: solid 1px #0075FF;
+  border: solid 1px #0075ff;
   padding: 0.25rem 1.5rem;
   font-size: 0.75rem;
   padding: 0.1rem 1rem;
 }
 .btn-main-s:hover {
   background-color: white;
-  color: #0075FF;
+  color: #0075ff;
 }
 
 .btn-sec {
@@ -44,18 +44,131 @@
   color: #888;
 }
 
+.main-menu {
+  margin-bottom: 0;
+}
 .main-menu li {
   font-size: 0.5rem;
   list-style: none;
   display: inline;
 }
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
 
 .icon-sm i {
-  font-size: 0.75rem;
-  padding: 0.1rem 0.25rem;
-  color: #0075FF;
+  font-size: 1.25rem;
+  padding: 0.4rem 0.65rem;
+  color: #0075ff;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature .icon {
+  color: #0075ff;
+  font-size: 10rem;
+}
+.feature .description .title {
+  font-size: 2rem;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+}
+.feature .cta {
+  color: #0075ff;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-desc .icon {
+  color: #0075ff;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 5rem;
+}
+
+.sec-home {
+  display: flex;
+  width: auto;
+  max-width: 768px;
+  margin: auto;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+.sec-home .home-img {
+  display: flex;
+  justify-content: center;
+}
+.sec-home .home-img img {
+  width: 50%;
+}
+
+.sec-features {
+  display: flex;
+  width: auto;
+  max-width: 768px;
+  margin: auto;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.sec-features .intro {
+  text-align: center;
+}
+.sec-features .intro h3 {
+  font-size: 1.8rem;
+}
+.sec-features .intro p {
+  font-size: 0.8rem;
+  color: #888;
 }
 
 /*# sourceMappingURL=style.css.map */
